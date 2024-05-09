@@ -1,17 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <day-one/> -->
+    <!-- <day-two/> -->
+    <!-- <day-three/> -->
+    <!-- <day-four/> -->
+    <day-five/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import DayOne from './components/DayOne.vue'
+// import DayTwo from './components/DayTwo.vue'
+// import DayThree from './components/DayThree.vue'
+// import DayFour from './components/DayFour.vue'
+import DayFive from './components/DayFive.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // DayOne,
+    // DayTwo
+    // DayThree
+    // DayFour
+    DayFive
   }
 }
 </script>
@@ -21,8 +32,8 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  display: flex;
 }
 </style>
