@@ -38,6 +38,11 @@ export default {};
   color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: 0.3s;
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.3);
+  }
 }
 
 .center {
